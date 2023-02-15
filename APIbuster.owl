@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/untitled-ontology-40#"
+     xml:base="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/untitled-ontology-40"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster">
+        <rdfs:comment xml:lang="en">APIbuster ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasAcceptanceTests -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasAcceptanceTests">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasIntegrationTests -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasIntegrationTests">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasMethods -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasMethods">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasPerformanceTests -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasPerformanceTests">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasResultTypes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasResultTypes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestGroups -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestGroups">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestResults -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestResults">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestTypes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestTypes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTests -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTests">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasUnitTests -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasUnitTests">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_domain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_domain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_body -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_body">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_header -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_header">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_route -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_route">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_error -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_error">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_speed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_body -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_body">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_expect -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_expect">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_end -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_end">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_start -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_start">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#type_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#type_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasMethods"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">API class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Acceptance_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Acceptance_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:comment xml:lang="en">Functional test class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Integration_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Integration_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Load_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Load_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestGroups"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Endpoint class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+        <rdfs:comment xml:lang="en">Non-functional test class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Performance_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Performance_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasResultTypes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Test type class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestResults"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTests"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Test class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result">
+        <rdfs:comment xml:lang="en">Test result class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Unit_Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Unit_Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

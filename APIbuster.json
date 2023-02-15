@@ -1,0 +1,801 @@
+[
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_type",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_route",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Load_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_header",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_start",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestTypes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      },
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#type_name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Integration_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasAcceptanceTests",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasUnitTests",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "API class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N5a32913cc6a142c1a7788d74ee57a932"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5a32913cc6a142c1a7788d74ee57a932",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasMethods"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasMethods",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasPerformanceTests",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_type",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasIntegrationTests",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Test result class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Test class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      },
+      {
+        "@id": "_:N93f5277302754534b0d2f7ce9918b295"
+      }
+    ]
+  },
+  {
+    "@id": "_:N93f5277302754534b0d2f7ce9918b295",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTests"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_date",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_end",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Unit_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestGroups",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_body",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestResults",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Acceptance_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_expect",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_group_duration",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Test type class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      },
+      {
+        "@id": "_:N72aaa37a1401446b88751b7bedf45258"
+      }
+    ]
+  },
+  {
+    "@id": "_:N72aaa37a1401446b88751b7bedf45258",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasResultTypes"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_title",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Non-functional test class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Functional_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Functional test class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Performance_Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_speed",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "APIbuster ontology"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_error",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_type",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#method_name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#api_domain",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      },
+      {
+        "@id": "_:N60db1ed7a3f24d918695fc8aad76db0e"
+      }
+    ]
+  },
+  {
+    "@id": "_:N60db1ed7a3f24d918695fc8aad76db0e",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestResults"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#result_duration",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasResultTypes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Result_Type"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Result"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTests",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#test_body",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Method",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Endpoint class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#API"
+      },
+      {
+        "@id": "_:N0c761d16b32947d790425a1cbb7df7db"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0c761d16b32947d790425a1cbb7df7db",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#hasTestGroups"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster#Test_Group"
+      }
+    ]
+  }
+]

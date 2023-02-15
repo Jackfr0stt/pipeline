@@ -1,0 +1,801 @@
+[
+  {
+    "id": "method_type",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Method"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "method_route",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Method"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "Load_Test",
+    "type": [
+      "Class"
+    ],
+    "subClassOf": [
+      {
+        "id": "Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "method_header",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Method"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "test_group_start",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Group"
+      }
+    ],
+    "range": [
+      {
+        "id": "dateTime"
+      }
+    ]
+  },
+  {
+    "id": "hasTestTypes",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Functional_Test"
+      },
+      {
+        "id": "Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "type_name",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Result_Type"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "Integration_Test",
+    "type": [
+      "Class"
+    ],
+    "subClassOf": [
+      {
+        "id": "Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "hasAcceptanceTests",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "hasUnitTests",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "API",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "API class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "_:N5a32913cc6a142c1a7788d74ee57a932"
+      }
+    ]
+  },
+  {
+    "id": "_:N5a32913cc6a142c1a7788d74ee57a932",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "hasMethods"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Method"
+      }
+    ]
+  },
+  {
+    "id": "hasMethods",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "API"
+      }
+    ],
+    "range": [
+      {
+        "id": "Method"
+      }
+    ]
+  },
+  {
+    "id": "hasPerformanceTests",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "test_type",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "hasIntegrationTests",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "Test_Result",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "Test result class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "Test"
+      }
+    ]
+  },
+  {
+    "id": "Test_Group",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "Test class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "Method"
+      },
+      {
+        "id": "_:N93f5277302754534b0d2f7ce9918b295"
+      }
+    ]
+  },
+  {
+    "id": "_:N93f5277302754534b0d2f7ce9918b295",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "hasTests"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Test"
+      }
+    ]
+  },
+  {
+    "id": "result_date",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Result"
+      }
+    ],
+    "range": [
+      {
+        "id": "dateTime"
+      }
+    ]
+  },
+  {
+    "id": "api_name",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "API"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "test_name",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "test_group_name",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Group"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "test_group_end",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Group"
+      }
+    ],
+    "range": [
+      {
+        "id": "dateTime"
+      }
+    ]
+  },
+  {
+    "id": "Unit_Test",
+    "type": [
+      "Class"
+    ],
+    "subClassOf": [
+      {
+        "id": "Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "hasTestGroups",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Method"
+      }
+    ],
+    "range": [
+      {
+        "id": "Test_Group"
+      }
+    ]
+  },
+  {
+    "id": "method_body",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Method"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "hasTestResults",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test"
+      }
+    ],
+    "range": [
+      {
+        "id": "Test_Result"
+      }
+    ]
+  },
+  {
+    "id": "Acceptance_Test",
+    "type": [
+      "Class"
+    ],
+    "subClassOf": [
+      {
+        "id": "Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "test_expect",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "test_group_duration",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Group"
+      }
+    ],
+    "range": [
+      {
+        "id": "integer"
+      }
+    ]
+  },
+  {
+    "id": "Result_Type",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "Test type class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "Test_Result"
+      },
+      {
+        "id": "_:N72aaa37a1401446b88751b7bedf45258"
+      }
+    ]
+  },
+  {
+    "id": "_:N72aaa37a1401446b88751b7bedf45258",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "hasResultTypes"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Test_Result"
+      }
+    ]
+  },
+  {
+    "id": "result_title",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Result"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "Non_Functional_Test",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "Non-functional test class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "Test"
+      }
+    ]
+  },
+  {
+    "id": "Functional_Test",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "Functional test class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "Test"
+      }
+    ]
+  },
+  {
+    "id": "Performance_Test",
+    "type": [
+      "Class"
+    ],
+    "subClassOf": [
+      {
+        "id": "Non_Functional_Test"
+      }
+    ]
+  },
+  {
+    "id": "result_speed",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Result"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "http://www.semanticweb.org/jackfr0stt/ontologies/2022/5/APIbuster",
+    "type": [
+      "Ontology"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "APIbuster ontology"
+      }
+    ]
+  },
+  {
+    "id": "result_error",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Result"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "api_type",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "API"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "method_name",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Method"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "api_domain",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "API"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "Test",
+    "type": [
+      "Class"
+    ],
+    "subClassOf": [
+      {
+        "id": "Test_Group"
+      },
+      {
+        "id": "_:N60db1ed7a3f24d918695fc8aad76db0e"
+      }
+    ]
+  },
+  {
+    "id": "_:N60db1ed7a3f24d918695fc8aad76db0e",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "hasTestResults"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Test_Result"
+      }
+    ]
+  },
+  {
+    "id": "result_duration",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Result"
+      }
+    ],
+    "range": [
+      {
+        "id": "integer"
+      }
+    ]
+  },
+  {
+    "id": "hasResultTypes",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Result_Type"
+      }
+    ],
+    "range": [
+      {
+        "id": "Test_Result"
+      }
+    ]
+  },
+  {
+    "id": "hasTests",
+    "type": [
+      "ObjectProperty",
+      "SymmetricProperty",
+      "TransitiveProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test_Group"
+      }
+    ],
+    "range": [
+      {
+        "id": "Test"
+      }
+    ]
+  },
+  {
+    "id": "test_body",
+    "type": [
+      "DatatypeProperty"
+    ],
+    "domain": [
+      {
+        "id": "Test"
+      }
+    ],
+    "range": [
+      {
+        "id": "string"
+      }
+    ]
+  },
+  {
+    "id": "Method",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "language": "en",
+        "value": "Endpoint class"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "API"
+      },
+      {
+        "id": "_:N0c761d16b32947d790425a1cbb7df7db"
+      }
+    ]
+  },
+  {
+    "id": "_:N0c761d16b32947d790425a1cbb7df7db",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "hasTestGroups"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Test_Group"
+      }
+    ]
+  }
+]

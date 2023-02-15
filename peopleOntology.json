@@ -1,0 +1,3060 @@
+[
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#van_driver",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "van driver"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N3f8e1fac6a634a3aaf9251a59b4e4d8c"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3f8e1fac6a634a3aaf9251a59b4e4d8c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N2b1d01393bda42f2b8635e160652d3b9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N2b1d01393bda42f2b8635e160652d3b9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#van"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#The_Guardian",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#broadsheet"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "The Guardian"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_part",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has_part"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#leaf",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "leaf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N3bf4af90f6f848329dd24a1054c7c42c"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3bf4af90f6f848329dd24a1054c7c42c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tree"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#quality_broadsheet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "quality broadsheet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#broadsheet"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Flossie",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#cow"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Flossie"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9d5bcb231ea9476490f65718f893ed1d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "_:N086442d80e154ba5beb79dd560687106"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+          },
+          {
+            "@id": "_:Ndd346321a2ce452b80b95f6b740c260c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndd346321a2ce452b80b95f6b740c260c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "_:N086442d80e154ba5beb79dd560687106",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#plant"
+          },
+          {
+            "@id": "_:Ne7de84549f634c15b616f8f44a6ee9b3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7de84549f634c15b616f8f44a6ee9b3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#plant"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#white_thing",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "white thing"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#works_for",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "works_for"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#grass",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "grass"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#plant"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#giraffe",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "giraffe"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      },
+      {
+        "@id": "_:N83c5ea6bbd8147a2a89c8d52a1b1edb5"
+      }
+    ]
+  },
+  {
+    "@id": "_:N83c5ea6bbd8147a2a89c8d52a1b1edb5",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#leaf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#haulage_worker",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "haulage worker"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nff7634036d5e4a29ae4fa6f0ae60ba11"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nff7634036d5e4a29ae4fa6f0ae60ba11",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#works_for"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:N832362fffbfd432da0faf119bc909691"
+      }
+    ]
+  },
+  {
+    "@id": "_:N832362fffbfd432da0faf119bc909691",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#haulage_company"
+          },
+          {
+            "@id": "_:N9bfccdd1950940959ac023ba8876433d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N9bfccdd1950940959ac023ba8876433d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#haulage_company"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#young",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "young"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#broadsheet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A newspaper. Broadsheets are usually considered to be more \"high-brow\" than tabloids."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "broadsheet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#newspaper"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tabloid"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cat_owner",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "cat owner"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N248dcb577bee46cb97d466d30fb49b46"
+      }
+    ]
+  },
+  {
+    "@id": "_:N248dcb577bee46cb97d466d30fb49b46",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N8902675881f84674a9f073c2f44fcb57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N8902675881f84674a9f073c2f44fcb57",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cat"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#dog_owner",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "dog owner"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N5282b0711d5842b68db6a65959b831c8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5282b0711d5842b68db6a65959b831c8",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N73bcababc75f440d9ae69e71019999cd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N73bcababc75f440d9ae69e71019999cd",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#dog"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal_lover",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Someone who really likes animals"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "animal lover"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N3f44831de94545d480e565003d30ba90"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3f44831de94545d480e565003d30ba90",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:Na12a5631bcff4baaa73f3d6a3221524c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Na12a5631bcff4baaa73f3d6a3221524c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "3"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#Thing",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#company",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "company"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#driver",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#adult"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N16e1807509cb404ca4db1f312deb8147"
+      }
+    ]
+  },
+  {
+    "@id": "_:N16e1807509cb404ca4db1f312deb8147",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N42bedf28f634409f9b051d3e32c9fd19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N42bedf28f634409f9b051d3e32c9fd19",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#lorry",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "lorry"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#elderly",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "elderly"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#adult"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naf049dfd56844d7f81211c930f5e761b",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDifferent"
+    ],
+    "http://www.w3.org/2002/07/owl#distinctMembers": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Dewey"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fido"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Flossie"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fluffy"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fred"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Huey"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Joe"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Kevin"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Louie"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Mick"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Minnie"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Rex"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#The_Guardian"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#The_Sun"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#The_Times"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Tibbs"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Walt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#likes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "likes"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Daily_Mirror",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The paper read by Mick."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Daily Mirror"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cat",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "cat"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#dog"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "eats"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "animal"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N1898d7d8f96743aaafaf933268f7e78c"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1898d7d8f96743aaafaf933268f7e78c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_parent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has_parent"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#reads",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "reads"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#publication"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#The_Sun",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#tabloid"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "The Sun"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#The_Times",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#broadsheet"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "The Times"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#dog",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "dog"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N44c2694d6ccb4d01a30fb27ada937d9d"
+      }
+    ]
+  },
+  {
+    "@id": "_:N44c2694d6ccb4d01a30fb27ada937d9d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bone"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Louie",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#duck"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Louie"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#lorry_driver",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "lorry driver"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N653181582fbc4de0a97f03c9c0638472"
+      }
+    ]
+  },
+  {
+    "@id": "_:N653181582fbc4de0a97f03c9c0638472",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N1df495065a49458594ec61ef1f71e12a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N1df495065a49458594ec61ef1f71e12a",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#lorry"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#man",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "man"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Naf6b9bcec0d54ad19364a3e077d98280"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naf6b9bcec0d54ad19364a3e077d98280",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#adult"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#male"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#sheep",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "sheep"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      },
+      {
+        "@id": "_:N7fc51537e9f348eb88a3411ee61e2c8a"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7fc51537e9f348eb88a3411ee61e2c8a",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#grass"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Huey",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#duck"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Huey"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tabloid",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A newspaper. Tabloids are usually thought of as more \"down-market\" than broadsheets."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "tabloid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#newspaper"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#pet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "pet"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nd268a022b63c4445b5c622cfe2025ccd"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd268a022b63c4445b5c622cfe2025ccd",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Dewey",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#duck"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Dewey"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bus",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bus"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#brain",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "brain"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#magazine",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "magazine"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#publication"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#female",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "female"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_child",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has_child"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Rex",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#dog"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Mick"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Rex"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#dog_liker",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "dog liker"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N0e995aa7a7724c579e7ce1dc7dcb9f0b"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0e995aa7a7724c579e7ce1dc7dcb9f0b",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:Na1b591bd9987438c9b6ea3049ae0e6f4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Na1b591bd9987438c9b6ea3049ae0e6f4",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#likes"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#dog"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tree",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "tree"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#plant"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Minnie",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#elderly",
+      "http://owl.man.ac.uk/2006/07/sssw/people#female"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#has_pet": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Tom"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Minnie"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cow",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Cows are naturally vegetarians."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "cow"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vegetarian"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Joe",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#person",
+      {
+        "@id": "_:N5c078182592d4086a975690d8a6caf99"
+      }
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#has_pet": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fido"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Joe"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5c078182592d4086a975690d8a6caf99",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#maxCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bicycle",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A human propelled vehicle, with two wheels"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bicycle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#plant",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "plant"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#woman",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "woman"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nf6214a83a8764eed8eb558d922c936d0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf6214a83a8764eed8eb558d922c936d0",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#adult"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#female"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "part_of"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#haulage_truck_driver",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "haulage truck driver"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Ne319cad225d34fbf88b7e5bf17a23a02"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne319cad225d34fbf88b7e5bf17a23a02",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N31843bf870174677a6a31d9990036cc9"
+          },
+          {
+            "@id": "_:Nf8b293aa8dd74f369956859084266fdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N31843bf870174677a6a31d9990036cc9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#truck"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf8b293aa8dd74f369956859084266fdf",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#works_for"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:N13f71e90a93f413493cbaf08b81f5225"
+      }
+    ]
+  },
+  {
+    "@id": "_:N13f71e90a93f413493cbaf08b81f5225",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#haulage_company"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bone",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bone"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#grownup",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "grownup"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N17312dc4c8ce45ab96f5f4f4b186f4ba"
+      }
+    ]
+  },
+  {
+    "@id": "_:N17312dc4c8ce45ab96f5f4f4b186f4ba",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#adult"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cat_liker",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "cat liker"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N2a36b89e7a6b4ef8acfbc4e03c04a6c6"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2a36b89e7a6b4ef8acfbc4e03c04a6c6",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:Nf24afb0ed262473095a2f88ed69299ab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf24afb0ed262473095a2f88ed69299ab",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#likes"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cat"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#pet_owner",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "pet owner"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N7f95c277b5cc42c5ae3d663ff460a2e8"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7f95c277b5cc42c5ae3d663ff460a2e8",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:Na4b7dbf34b8a4fd5b2b3101898276369"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Na4b7dbf34b8a4fd5b2b3101898276369",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Anyone that has a pet must like that pet."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has_pet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#likes"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#duck",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "duck"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#haulage_company",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "haulage company"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#company"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bus_company",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bus company"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#company"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_mother",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has_mother"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#woman"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_parent"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#old_lady",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "old lady"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N0da48baf5c5e4da5876046ec293a557d"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N69fa7ab087f741af954a5aabf6a0ee56"
+      }
+    ]
+  },
+  {
+    "@id": "_:N69fa7ab087f741af954a5aabf6a0ee56",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#elderly"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#female"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N0da48baf5c5e4da5876046ec293a557d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "_:Nb75cbece7e0c4689ba7e36a5239f7dda"
+          },
+          {
+            "@id": "_:N64ef32df9f754595849d8431aa442c3d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb75cbece7e0c4689ba7e36a5239f7dda",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "_:N64ef32df9f754595849d8431aa442c3d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cat"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_pet"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#newspaper",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "All newspapers are either broadsheets or tabloids."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "newspaper"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#publication"
+      },
+      {
+        "@id": "_:N1f75ed0e475e46f9be4de5dd2983887b"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1f75ed0e475e46f9be4de5dd2983887b",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#broadsheet"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tabloid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fluffy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#tiger"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Fluffy"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#male",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The class of all male things."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "male"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#white_van_man",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A white van man is a man who drives a white van."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "white van man"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:N963194d109354210b9d9dac85731d30f"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nb25a1779ef9f4c019a73bf32998d2b77"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb25a1779ef9f4c019a73bf32998d2b77",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#man"
+          },
+          {
+            "@id": "_:Naae658f4715649169450886f10dac2be"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Naae658f4715649169450886f10dac2be",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:Nc06fea4cafeb4b9b9dde78cf947144e9"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc06fea4cafeb4b9b9dde78cf947144e9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#van"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#white_thing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N963194d109354210b9d9dac85731d30f",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tabloid"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#reads"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_father",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "has_father"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#man"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#has_parent"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eaten_by",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "eaten_by"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fred",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#person"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#has_pet": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Tibbs"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Fred"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "is_pet_of"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Kevin",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#person"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#has_pet": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Flossie"
+      },
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fluffy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Kevin"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "person"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#mad_cow",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A mad cow is a cow that has been eating the brains of sheep."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "mad cow"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nef7af938592b45a0a55e79dd21a0831d"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nef7af938592b45a0a55e79dd21a0831d",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#cow"
+          },
+          {
+            "@id": "_:N2e84f9f71bf14258b766c4dfe976157e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N2e84f9f71bf14258b766c4dfe976157e",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "_:Nb8ca15b58e6c47e6baeb5686e5269794"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb8ca15b58e6c47e6baeb5686e5269794",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#brain"
+          },
+          {
+            "@id": "_:Nac41a93397bb48069e1da3f4444d5731"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:Nac41a93397bb48069e1da3f4444d5731",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#sheep"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "drives"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tiger",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "tiger"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Walt",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#person"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#has_pet": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Dewey"
+      },
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Huey"
+      },
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Louie"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Walt"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Tom",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Tom"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#car",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "car"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#adult",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Things that are adult."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "adult"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#young"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Mick",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#male"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#drives": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC"
+      }
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#reads": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Daily_Mirror"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Mick is male and drives a white van. "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Mick"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vegetarian",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A vegetarian is defined as an animal that eats no other animals, or parts of animals."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "vegetarian"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nd3f5c374e3924daa94f0c4c01e5a3b15"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd3f5c374e3924daa94f0c4c01e5a3b15",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+          },
+          {
+            "@id": "_:N88235142b0694fe1bb15abd13d4ea197"
+          },
+          {
+            "@id": "_:Naa5e905a14b747ebbca766c7699cd3ef"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N88235142b0694fe1bb15abd13d4ea197",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:N0e10f543c2a443dba1746aff5962a377"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0e10f543c2a443dba1746aff5962a377",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#complementOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naa5e905a14b747ebbca766c7699cd3ef",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:Nf0d8aaf2687542118ac7b8a96e957af3"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#eats"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf0d8aaf2687542118ac7b8a96e957af3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#complementOf": [
+      {
+        "@id": "_:N97d4224ef87945cba38458aff937a729"
+      }
+    ]
+  },
+  {
+    "@id": "_:N97d4224ef87945cba38458aff937a729",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#animal"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Pete",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Pete"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Tibbs",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#cat"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Tibbs"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#van",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "van"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#publication",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "publication"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Fido",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#dog"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Fido"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bus_driver",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Someone who drives a bus."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bus driver"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:N157bb775e8904fffb2d57a060873490f"
+      }
+    ]
+  },
+  {
+    "@id": "_:N157bb775e8904fffb2d57a060873490f",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "_:N45684ea887df477480fce60d9da85c9c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:N45684ea887df477480fce60d9da85c9c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#drives"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#bus"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://owl.man.ac.uk/2006/07/sssw/people#van",
+      "http://owl.man.ac.uk/2006/07/sssw/people#white_thing"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A white van"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Q123 ABC"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Spike",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#Pete"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Spike"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#kid",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "kid"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      {
+        "@id": "_:Nf6b1dfa94a0e46579b71c5742ad96365"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf6b1dfa94a0e46579b71c5742ad96365",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#person"
+          },
+          {
+            "@id": "http://owl.man.ac.uk/2006/07/sssw/people#young"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#red_top",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "red top"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#tabloid"
+      }
+    ]
+  },
+  {
+    "@id": "http://owl.man.ac.uk/2006/07/sssw/people#truck",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "truck"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://owl.man.ac.uk/2006/07/sssw/people#vehicle"
+      }
+    ]
+  }
+]

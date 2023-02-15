@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS API CASCADE;
+DROP TABLE IF EXISTS Method CASCADE;
+DROP TABLE IF EXISTS testGroup CASCADE;
+DROP TABLE IF EXISTS Test CASCADE;
+DROP TABLE IF EXISTS testResult CASCADE;
+DROP TABLE IF EXISTS resultType CASCADE;
+CREATE TABLE API (ID SERIAL NOT NULL, APIID int4 NOT NULL, apiName varchar(255), apiType varchar(255), apiDomain varchar(255), PRIMARY KEY (ID));
+CREATE TABLE Method (ID SERIAL NOT NULL, MethodID int4 NOT NULL, methodType varchar(255), methodRoute varchar(255), methodHeader varchar(255), methodBody varchar(255), methodName varchar(255), PRIMARY KEY (ID));
+CREATE TABLE testGroup (ID SERIAL NOT NULL, testGroupID int4 NOT NULL, testGroupStart varchar(255), testGroupName varchar(255), testGroupEnd varchar(255), testGroupDuration int4, PRIMARY KEY (ID));
+CREATE TABLE Test (ID SERIAL NOT NULL, TestID int4 NOT NULL, testType varchar(255), testName varchar(255), testExpect varchar(255), testBody varchar(255), Discriminator varchar(255), PRIMARY KEY (ID));
+CREATE TABLE testResult (ID SERIAL NOT NULL, resultDate varchar(255), resultTitle varchar(255), resultSpeed varchar(255), resultError varchar(255), resultDuration int4, PRIMARY KEY (ID));
+CREATE TABLE resultType (ID SERIAL NOT NULL, resultTypeID int4 NOT NULL, typeName varchar(255), PRIMARY KEY (ID));
+ALTER TABLE Method ADD CONSTRAINT FKMETHOD33977 FOREIGN KEY (APIID) REFERENCES API (ID) ON DELETE CASCADE;
+ALTER TABLE testGroup ADD CONSTRAINT FKTESTGROUP10573 FOREIGN KEY (MethodID) REFERENCES Method (ID) ON DELETE CASCADE;
+ALTER TABLE Test ADD CONSTRAINT FKTEST11442 FOREIGN KEY (testGroupID) REFERENCES testGroup (ID) ON DELETE CASCADE;
+ALTER TABLE testResult ADD CONSTRAINT FKTESTRESULT80338 FOREIGN KEY (TestID) REFERENCES Test (ID) ON DELETE CASCADE;
+ALTER TABLE testResult ADD CONSTRAINT FKTESTRESULT80338 FOREIGN KEY (resultTypeID) REFERENCES resultType (ID) ON DELETE CASCADE;

@@ -1,0 +1,3060 @@
+[
+  {
+    "id": "van_driver",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "van driver"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N3f8e1fac6a634a3aaf9251a59b4e4d8c"
+      }
+    ]
+  },
+  {
+    "id": "_:N3f8e1fac6a634a3aaf9251a59b4e4d8c",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N2b1d01393bda42f2b8635e160652d3b9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N2b1d01393bda42f2b8635e160652d3b9",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "drives"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "van"
+      }
+    ]
+  },
+  {
+    "id": "The_Guardian",
+    "type": [
+      "NamedIndividual",
+      "broadsheet"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "The Guardian"
+      }
+    ]
+  },
+  {
+    "id": "has_part",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "has_part"
+      }
+    ],
+    "inverseOf": [
+      {
+        "id": "part_of"
+      }
+    ]
+  },
+  {
+    "id": "leaf",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "leaf"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "_:N3bf4af90f6f848329dd24a1054c7c42c"
+      }
+    ]
+  },
+  {
+    "id": "_:N3bf4af90f6f848329dd24a1054c7c42c",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "tree"
+      }
+    ]
+  },
+  {
+    "id": "quality_broadsheet",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "quality broadsheet"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "broadsheet"
+      }
+    ]
+  },
+  {
+    "id": "Flossie",
+    "type": [
+      "NamedIndividual",
+      "cow"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Flossie"
+      }
+    ]
+  },
+  {
+    "id": "_:N9d5bcb231ea9476490f65718f893ed1d",
+    "type": [
+      "Class"
+    ],
+    "disjointWith": [
+      {
+        "id": "_:N086442d80e154ba5beb79dd560687106"
+      }
+    ],
+    "unionOf": [
+      {
+        "list": [
+          {
+            "id": "animal"
+          },
+          {
+            "id": "_:Ndd346321a2ce452b80b95f6b740c260c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Ndd346321a2ce452b80b95f6b740c260c",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "_:N086442d80e154ba5beb79dd560687106",
+    "type": [
+      "Class"
+    ],
+    "unionOf": [
+      {
+        "list": [
+          {
+            "id": "plant"
+          },
+          {
+            "id": "_:Ne7de84549f634c15b616f8f44a6ee9b3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Ne7de84549f634c15b616f8f44a6ee9b3",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "plant"
+      }
+    ]
+  },
+  {
+    "id": "white_thing",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "white thing"
+      }
+    ]
+  },
+  {
+    "id": "works_for",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "works_for"
+      }
+    ]
+  },
+  {
+    "id": "grass",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "grass"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "plant"
+      }
+    ]
+  },
+  {
+    "id": "giraffe",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "giraffe"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "animal"
+      },
+      {
+        "id": "_:N83c5ea6bbd8147a2a89c8d52a1b1edb5"
+      }
+    ]
+  },
+  {
+    "id": "_:N83c5ea6bbd8147a2a89c8d52a1b1edb5",
+    "type": [
+      "Restriction"
+    ],
+    "allValuesFrom": [
+      {
+        "id": "leaf"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ]
+  },
+  {
+    "id": "haulage_worker",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "haulage worker"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nff7634036d5e4a29ae4fa6f0ae60ba11"
+      }
+    ]
+  },
+  {
+    "id": "_:Nff7634036d5e4a29ae4fa6f0ae60ba11",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "works_for"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "_:N832362fffbfd432da0faf119bc909691"
+      }
+    ]
+  },
+  {
+    "id": "_:N832362fffbfd432da0faf119bc909691",
+    "type": [
+      "Class"
+    ],
+    "unionOf": [
+      {
+        "list": [
+          {
+            "id": "haulage_company"
+          },
+          {
+            "id": "_:N9bfccdd1950940959ac023ba8876433d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N9bfccdd1950940959ac023ba8876433d",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "haulage_company"
+      }
+    ]
+  },
+  {
+    "id": "young",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "young"
+      }
+    ]
+  },
+  {
+    "id": "broadsheet",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "A newspaper. Broadsheets are usually considered to be more \"high-brow\" than tabloids."
+      }
+    ],
+    "label": [
+      {
+        "value": "broadsheet"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "newspaper"
+      }
+    ],
+    "disjointWith": [
+      {
+        "id": "tabloid"
+      }
+    ]
+  },
+  {
+    "id": "cat_owner",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "cat owner"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N248dcb577bee46cb97d466d30fb49b46"
+      }
+    ]
+  },
+  {
+    "id": "_:N248dcb577bee46cb97d466d30fb49b46",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N8902675881f84674a9f073c2f44fcb57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N8902675881f84674a9f073c2f44fcb57",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "cat"
+      }
+    ]
+  },
+  {
+    "id": "dog_owner",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "dog owner"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N5282b0711d5842b68db6a65959b831c8"
+      }
+    ]
+  },
+  {
+    "id": "_:N5282b0711d5842b68db6a65959b831c8",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N73bcababc75f440d9ae69e71019999cd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N73bcababc75f440d9ae69e71019999cd",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "dog"
+      }
+    ]
+  },
+  {
+    "id": "animal_lover",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "Someone who really likes animals"
+      }
+    ],
+    "label": [
+      {
+        "value": "animal lover"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N3f44831de94545d480e565003d30ba90"
+      }
+    ]
+  },
+  {
+    "id": "_:N3f44831de94545d480e565003d30ba90",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:Na12a5631bcff4baaa73f3d6a3221524c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Na12a5631bcff4baaa73f3d6a3221524c",
+    "type": [
+      "Restriction"
+    ],
+    "minCardinality": [
+      {
+        "type": "nonNegativeInteger",
+        "value": "3"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ]
+  },
+  {
+    "id": "Thing",
+    "type": [
+      "Class"
+    ]
+  },
+  {
+    "id": "company",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "company"
+      }
+    ]
+  },
+  {
+    "id": "driver",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "driver"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "adult"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N16e1807509cb404ca4db1f312deb8147"
+      }
+    ]
+  },
+  {
+    "id": "_:N16e1807509cb404ca4db1f312deb8147",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N42bedf28f634409f9b051d3e32c9fd19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N42bedf28f634409f9b051d3e32c9fd19",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "drives"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "lorry",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "lorry"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "elderly",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "elderly"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "adult"
+      }
+    ]
+  },
+  {
+    "id": "_:Naf049dfd56844d7f81211c930f5e761b",
+    "type": [
+      "AllDifferent"
+    ],
+    "distinctMembers": [
+      {
+        "list": [
+          {
+            "id": "Dewey"
+          },
+          {
+            "id": "Fido"
+          },
+          {
+            "id": "Flossie"
+          },
+          {
+            "id": "Fluffy"
+          },
+          {
+            "id": "Fred"
+          },
+          {
+            "id": "Huey"
+          },
+          {
+            "id": "Joe"
+          },
+          {
+            "id": "Kevin"
+          },
+          {
+            "id": "Louie"
+          },
+          {
+            "id": "Mick"
+          },
+          {
+            "id": "Minnie"
+          },
+          {
+            "id": "Q123_ABC"
+          },
+          {
+            "id": "Rex"
+          },
+          {
+            "id": "The_Guardian"
+          },
+          {
+            "id": "The_Sun"
+          },
+          {
+            "id": "The_Times"
+          },
+          {
+            "id": "Tibbs"
+          },
+          {
+            "id": "Walt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "likes",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "likes"
+      }
+    ]
+  },
+  {
+    "id": "Daily_Mirror",
+    "type": [
+      "Thing",
+      "NamedIndividual"
+    ],
+    "comment": [
+      {
+        "value": "The paper read by Mick."
+      }
+    ],
+    "label": [
+      {
+        "value": "Daily Mirror"
+      }
+    ]
+  },
+  {
+    "id": "cat",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "cat"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "animal"
+      }
+    ],
+    "disjointWith": [
+      {
+        "id": "dog"
+      }
+    ]
+  },
+  {
+    "id": "eats",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "domain": [
+      {
+        "id": "animal"
+      }
+    ],
+    "label": [
+      {
+        "value": "eats"
+      }
+    ]
+  },
+  {
+    "id": "animal",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "animal"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "_:N1898d7d8f96743aaafaf933268f7e78c"
+      }
+    ]
+  },
+  {
+    "id": "_:N1898d7d8f96743aaafaf933268f7e78c",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Thing"
+      }
+    ]
+  },
+  {
+    "id": "has_parent",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "has_parent"
+      }
+    ]
+  },
+  {
+    "id": "reads",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "reads"
+      }
+    ],
+    "range": [
+      {
+        "id": "publication"
+      }
+    ]
+  },
+  {
+    "id": "The_Sun",
+    "type": [
+      "NamedIndividual",
+      "tabloid"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "The Sun"
+      }
+    ]
+  },
+  {
+    "id": "The_Times",
+    "type": [
+      "NamedIndividual",
+      "broadsheet"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "The Times"
+      }
+    ]
+  },
+  {
+    "id": "dog",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "dog"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "_:N44c2694d6ccb4d01a30fb27ada937d9d"
+      }
+    ]
+  },
+  {
+    "id": "_:N44c2694d6ccb4d01a30fb27ada937d9d",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "bone"
+      }
+    ]
+  },
+  {
+    "id": "Louie",
+    "type": [
+      "NamedIndividual",
+      "duck"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Louie"
+      }
+    ]
+  },
+  {
+    "id": "lorry_driver",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "lorry driver"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N653181582fbc4de0a97f03c9c0638472"
+      }
+    ]
+  },
+  {
+    "id": "_:N653181582fbc4de0a97f03c9c0638472",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N1df495065a49458594ec61ef1f71e12a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N1df495065a49458594ec61ef1f71e12a",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "drives"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "lorry"
+      }
+    ]
+  },
+  {
+    "id": "man",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "man"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Naf6b9bcec0d54ad19364a3e077d98280"
+      }
+    ]
+  },
+  {
+    "id": "_:Naf6b9bcec0d54ad19364a3e077d98280",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "adult"
+          },
+          {
+            "id": "male"
+          },
+          {
+            "id": "person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sheep",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "sheep"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "animal"
+      },
+      {
+        "id": "_:N7fc51537e9f348eb88a3411ee61e2c8a"
+      }
+    ]
+  },
+  {
+    "id": "_:N7fc51537e9f348eb88a3411ee61e2c8a",
+    "type": [
+      "Restriction"
+    ],
+    "allValuesFrom": [
+      {
+        "id": "grass"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ]
+  },
+  {
+    "id": "Huey",
+    "type": [
+      "NamedIndividual",
+      "duck"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Huey"
+      }
+    ]
+  },
+  {
+    "id": "tabloid",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "A newspaper. Tabloids are usually thought of as more \"down-market\" than broadsheets."
+      }
+    ],
+    "label": [
+      {
+        "value": "tabloid"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "newspaper"
+      }
+    ]
+  },
+  {
+    "id": "http://owl.man.ac.uk/2006/07/sssw/people",
+    "type": [
+      "Ontology"
+    ]
+  },
+  {
+    "id": "pet",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "pet"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nd268a022b63c4445b5c622cfe2025ccd"
+      }
+    ]
+  },
+  {
+    "id": "_:Nd268a022b63c4445b5c622cfe2025ccd",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "is_pet_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "Thing"
+      }
+    ]
+  },
+  {
+    "id": "Dewey",
+    "type": [
+      "NamedIndividual",
+      "duck"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Dewey"
+      }
+    ]
+  },
+  {
+    "id": "bus",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "bus"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "brain",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "brain"
+      }
+    ]
+  },
+  {
+    "id": "magazine",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "magazine"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "publication"
+      }
+    ]
+  },
+  {
+    "id": "female",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "female"
+      }
+    ]
+  },
+  {
+    "id": "has_child",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "has_child"
+      }
+    ]
+  },
+  {
+    "id": "Rex",
+    "type": [
+      "NamedIndividual",
+      "dog"
+    ],
+    "is_pet_of": [
+      {
+        "id": "Mick"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Rex"
+      }
+    ]
+  },
+  {
+    "id": "dog_liker",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "dog liker"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N0e995aa7a7724c579e7ce1dc7dcb9f0b"
+      }
+    ]
+  },
+  {
+    "id": "_:N0e995aa7a7724c579e7ce1dc7dcb9f0b",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:Na1b591bd9987438c9b6ea3049ae0e6f4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Na1b591bd9987438c9b6ea3049ae0e6f4",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "likes"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "dog"
+      }
+    ]
+  },
+  {
+    "id": "tree",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "tree"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "plant"
+      }
+    ]
+  },
+  {
+    "id": "Minnie",
+    "type": [
+      "NamedIndividual",
+      "elderly",
+      "female"
+    ],
+    "has_pet": [
+      {
+        "id": "Tom"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Minnie"
+      }
+    ]
+  },
+  {
+    "id": "cow",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "Cows are naturally vegetarians."
+      }
+    ],
+    "label": [
+      {
+        "value": "cow"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vegetarian"
+      }
+    ]
+  },
+  {
+    "id": "Joe",
+    "type": [
+      "NamedIndividual",
+      "person",
+      {
+        "id": "_:N5c078182592d4086a975690d8a6caf99"
+      }
+    ],
+    "has_pet": [
+      {
+        "id": "Fido"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Joe"
+      }
+    ]
+  },
+  {
+    "id": "_:N5c078182592d4086a975690d8a6caf99",
+    "type": [
+      "Restriction"
+    ],
+    "maxCardinality": [
+      {
+        "type": "nonNegativeInteger",
+        "value": "1"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ]
+  },
+  {
+    "id": "bicycle",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "A human propelled vehicle, with two wheels"
+      }
+    ],
+    "label": [
+      {
+        "value": "bicycle"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "plant",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "plant"
+      }
+    ]
+  },
+  {
+    "id": "woman",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "woman"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nf6214a83a8764eed8eb558d922c936d0"
+      }
+    ]
+  },
+  {
+    "id": "_:Nf6214a83a8764eed8eb558d922c936d0",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "adult"
+          },
+          {
+            "id": "female"
+          },
+          {
+            "id": "person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "part_of",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "part_of"
+      }
+    ]
+  },
+  {
+    "id": "haulage_truck_driver",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "haulage truck driver"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Ne319cad225d34fbf88b7e5bf17a23a02"
+      }
+    ]
+  },
+  {
+    "id": "_:Ne319cad225d34fbf88b7e5bf17a23a02",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N31843bf870174677a6a31d9990036cc9"
+          },
+          {
+            "id": "_:Nf8b293aa8dd74f369956859084266fdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N31843bf870174677a6a31d9990036cc9",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "drives"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "truck"
+      }
+    ]
+  },
+  {
+    "id": "_:Nf8b293aa8dd74f369956859084266fdf",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "works_for"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "_:N13f71e90a93f413493cbaf08b81f5225"
+      }
+    ]
+  },
+  {
+    "id": "_:N13f71e90a93f413493cbaf08b81f5225",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "haulage_company"
+      }
+    ]
+  },
+  {
+    "id": "bone",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "bone"
+      }
+    ]
+  },
+  {
+    "id": "grownup",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "grownup"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N17312dc4c8ce45ab96f5f4f4b186f4ba"
+      }
+    ]
+  },
+  {
+    "id": "_:N17312dc4c8ce45ab96f5f4f4b186f4ba",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "adult"
+          },
+          {
+            "id": "person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cat_liker",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "cat liker"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N2a36b89e7a6b4ef8acfbc4e03c04a6c6"
+      }
+    ]
+  },
+  {
+    "id": "_:N2a36b89e7a6b4ef8acfbc4e03c04a6c6",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:Nf24afb0ed262473095a2f88ed69299ab"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Nf24afb0ed262473095a2f88ed69299ab",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "likes"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "cat"
+      }
+    ]
+  },
+  {
+    "id": "pet_owner",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "pet owner"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N7f95c277b5cc42c5ae3d663ff460a2e8"
+      }
+    ]
+  },
+  {
+    "id": "_:N7f95c277b5cc42c5ae3d663ff460a2e8",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:Na4b7dbf34b8a4fd5b2b3101898276369"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Na4b7dbf34b8a4fd5b2b3101898276369",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "has_pet",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": "Anyone that has a pet must like that pet."
+      }
+    ],
+    "domain": [
+      {
+        "id": "person"
+      }
+    ],
+    "label": [
+      {
+        "value": "has_pet"
+      }
+    ],
+    "range": [
+      {
+        "id": "animal"
+      }
+    ],
+    "subPropertyOf": [
+      {
+        "id": "likes"
+      }
+    ],
+    "inverseOf": [
+      {
+        "id": "is_pet_of"
+      }
+    ]
+  },
+  {
+    "id": "duck",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "duck"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "haulage_company",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "haulage company"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "company"
+      }
+    ]
+  },
+  {
+    "id": "bus_company",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "bus company"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "company"
+      }
+    ]
+  },
+  {
+    "id": "has_mother",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "has_mother"
+      }
+    ],
+    "range": [
+      {
+        "id": "woman"
+      }
+    ],
+    "subPropertyOf": [
+      {
+        "id": "has_parent"
+      }
+    ]
+  },
+  {
+    "id": "old_lady",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "old lady"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "_:N0da48baf5c5e4da5876046ec293a557d"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N69fa7ab087f741af954a5aabf6a0ee56"
+      }
+    ]
+  },
+  {
+    "id": "_:N69fa7ab087f741af954a5aabf6a0ee56",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "elderly"
+          },
+          {
+            "id": "female"
+          },
+          {
+            "id": "person"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N0da48baf5c5e4da5876046ec293a557d",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "_:Nb75cbece7e0c4689ba7e36a5239f7dda"
+          },
+          {
+            "id": "_:N64ef32df9f754595849d8431aa442c3d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Nb75cbece7e0c4689ba7e36a5239f7dda",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "_:N64ef32df9f754595849d8431aa442c3d",
+    "type": [
+      "Restriction"
+    ],
+    "allValuesFrom": [
+      {
+        "id": "cat"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "has_pet"
+      }
+    ]
+  },
+  {
+    "id": "vehicle",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "newspaper",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "All newspapers are either broadsheets or tabloids."
+      }
+    ],
+    "label": [
+      {
+        "value": "newspaper"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "publication"
+      },
+      {
+        "id": "_:N1f75ed0e475e46f9be4de5dd2983887b"
+      }
+    ]
+  },
+  {
+    "id": "_:N1f75ed0e475e46f9be4de5dd2983887b",
+    "type": [
+      "Class"
+    ],
+    "unionOf": [
+      {
+        "list": [
+          {
+            "id": "broadsheet"
+          },
+          {
+            "id": "tabloid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Fluffy",
+    "type": [
+      "NamedIndividual",
+      "tiger"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Fluffy"
+      }
+    ]
+  },
+  {
+    "id": "male",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "The class of all male things."
+      }
+    ],
+    "label": [
+      {
+        "value": "male"
+      }
+    ]
+  },
+  {
+    "id": "white_van_man",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "A white van man is a man who drives a white van."
+      }
+    ],
+    "label": [
+      {
+        "value": "white van man"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "_:N963194d109354210b9d9dac85731d30f"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nb25a1779ef9f4c019a73bf32998d2b77"
+      }
+    ]
+  },
+  {
+    "id": "_:Nb25a1779ef9f4c019a73bf32998d2b77",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "man"
+          },
+          {
+            "id": "_:Naae658f4715649169450886f10dac2be"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Naae658f4715649169450886f10dac2be",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "drives"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "_:Nc06fea4cafeb4b9b9dde78cf947144e9"
+      }
+    ]
+  },
+  {
+    "id": "_:Nc06fea4cafeb4b9b9dde78cf947144e9",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "van"
+          },
+          {
+            "id": "white_thing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N963194d109354210b9d9dac85731d30f",
+    "type": [
+      "Restriction"
+    ],
+    "allValuesFrom": [
+      {
+        "id": "tabloid"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "reads"
+      }
+    ]
+  },
+  {
+    "id": "has_father",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "has_father"
+      }
+    ],
+    "range": [
+      {
+        "id": "man"
+      }
+    ],
+    "subPropertyOf": [
+      {
+        "id": "has_parent"
+      }
+    ]
+  },
+  {
+    "id": "eaten_by",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "eaten_by"
+      }
+    ],
+    "inverseOf": [
+      {
+        "id": "eats"
+      }
+    ]
+  },
+  {
+    "id": "Fred",
+    "type": [
+      "NamedIndividual",
+      "person"
+    ],
+    "has_pet": [
+      {
+        "id": "Tibbs"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Fred"
+      }
+    ]
+  },
+  {
+    "id": "is_pet_of",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "is_pet_of"
+      }
+    ]
+  },
+  {
+    "id": "Kevin",
+    "type": [
+      "NamedIndividual",
+      "person"
+    ],
+    "has_pet": [
+      {
+        "id": "Flossie"
+      },
+      {
+        "id": "Fluffy"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Kevin"
+      }
+    ]
+  },
+  {
+    "id": "person",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "person"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "mad_cow",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "A mad cow is a cow that has been eating the brains of sheep."
+      }
+    ],
+    "label": [
+      {
+        "value": "mad cow"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nef7af938592b45a0a55e79dd21a0831d"
+      }
+    ]
+  },
+  {
+    "id": "_:Nef7af938592b45a0a55e79dd21a0831d",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "cow"
+          },
+          {
+            "id": "_:N2e84f9f71bf14258b766c4dfe976157e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N2e84f9f71bf14258b766c4dfe976157e",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "_:Nb8ca15b58e6c47e6baeb5686e5269794"
+      }
+    ]
+  },
+  {
+    "id": "_:Nb8ca15b58e6c47e6baeb5686e5269794",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "brain"
+          },
+          {
+            "id": "_:Nac41a93397bb48069e1da3f4444d5731"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:Nac41a93397bb48069e1da3f4444d5731",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "sheep"
+      }
+    ]
+  },
+  {
+    "id": "drives",
+    "type": [
+      "ObjectProperty"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "drives"
+      }
+    ]
+  },
+  {
+    "id": "tiger",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "tiger"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "Walt",
+    "type": [
+      "NamedIndividual",
+      "person"
+    ],
+    "has_pet": [
+      {
+        "id": "Dewey"
+      },
+      {
+        "id": "Huey"
+      },
+      {
+        "id": "Louie"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Walt"
+      }
+    ]
+  },
+  {
+    "id": "Tom",
+    "type": [
+      "Thing",
+      "NamedIndividual"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Tom"
+      }
+    ]
+  },
+  {
+    "id": "car",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "car"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "adult",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "Things that are adult."
+      }
+    ],
+    "label": [
+      {
+        "value": "adult"
+      }
+    ],
+    "disjointWith": [
+      {
+        "id": "young"
+      }
+    ]
+  },
+  {
+    "id": "Mick",
+    "type": [
+      "NamedIndividual",
+      "male"
+    ],
+    "drives": [
+      {
+        "id": "Q123_ABC"
+      }
+    ],
+    "reads": [
+      {
+        "id": "Daily_Mirror"
+      }
+    ],
+    "comment": [
+      {
+        "value": "Mick is male and drives a white van. "
+      }
+    ],
+    "label": [
+      {
+        "value": "Mick"
+      }
+    ]
+  },
+  {
+    "id": "vegetarian",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "A vegetarian is defined as an animal that eats no other animals, or parts of animals."
+      }
+    ],
+    "label": [
+      {
+        "value": "vegetarian"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nd3f5c374e3924daa94f0c4c01e5a3b15"
+      }
+    ]
+  },
+  {
+    "id": "_:Nd3f5c374e3924daa94f0c4c01e5a3b15",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "animal"
+          },
+          {
+            "id": "_:N88235142b0694fe1bb15abd13d4ea197"
+          },
+          {
+            "id": "_:Naa5e905a14b747ebbca766c7699cd3ef"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N88235142b0694fe1bb15abd13d4ea197",
+    "type": [
+      "Restriction"
+    ],
+    "allValuesFrom": [
+      {
+        "id": "_:N0e10f543c2a443dba1746aff5962a377"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ]
+  },
+  {
+    "id": "_:N0e10f543c2a443dba1746aff5962a377",
+    "type": [
+      "Class"
+    ],
+    "complementOf": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "_:Naa5e905a14b747ebbca766c7699cd3ef",
+    "type": [
+      "Restriction"
+    ],
+    "allValuesFrom": [
+      {
+        "id": "_:Nf0d8aaf2687542118ac7b8a96e957af3"
+      }
+    ],
+    "onProperty": [
+      {
+        "id": "eats"
+      }
+    ]
+  },
+  {
+    "id": "_:Nf0d8aaf2687542118ac7b8a96e957af3",
+    "type": [
+      "Class"
+    ],
+    "complementOf": [
+      {
+        "id": "_:N97d4224ef87945cba38458aff937a729"
+      }
+    ]
+  },
+  {
+    "id": "_:N97d4224ef87945cba38458aff937a729",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "part_of"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "animal"
+      }
+    ]
+  },
+  {
+    "id": "Pete",
+    "type": [
+      "Thing",
+      "NamedIndividual"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Pete"
+      }
+    ]
+  },
+  {
+    "id": "Tibbs",
+    "type": [
+      "NamedIndividual",
+      "cat"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Tibbs"
+      }
+    ]
+  },
+  {
+    "id": "van",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "van"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  },
+  {
+    "id": "publication",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "publication"
+      }
+    ]
+  },
+  {
+    "id": "Fido",
+    "type": [
+      "NamedIndividual",
+      "dog"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Fido"
+      }
+    ]
+  },
+  {
+    "id": "bus_driver",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": "Someone who drives a bus."
+      }
+    ],
+    "label": [
+      {
+        "value": "bus driver"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:N157bb775e8904fffb2d57a060873490f"
+      }
+    ]
+  },
+  {
+    "id": "_:N157bb775e8904fffb2d57a060873490f",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "_:N45684ea887df477480fce60d9da85c9c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "_:N45684ea887df477480fce60d9da85c9c",
+    "type": [
+      "Restriction"
+    ],
+    "onProperty": [
+      {
+        "id": "drives"
+      }
+    ],
+    "someValuesFrom": [
+      {
+        "id": "bus"
+      }
+    ]
+  },
+  {
+    "id": "Q123_ABC",
+    "type": [
+      "NamedIndividual",
+      "van",
+      "white_thing"
+    ],
+    "comment": [
+      {
+        "value": "A white van"
+      }
+    ],
+    "label": [
+      {
+        "value": "Q123 ABC"
+      }
+    ]
+  },
+  {
+    "id": "Spike",
+    "type": [
+      "Thing",
+      "NamedIndividual"
+    ],
+    "is_pet_of": [
+      {
+        "id": "Pete"
+      }
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "Spike"
+      }
+    ]
+  },
+  {
+    "id": "kid",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "kid"
+      }
+    ],
+    "equivalentClass": [
+      {
+        "id": "_:Nf6b1dfa94a0e46579b71c5742ad96365"
+      }
+    ]
+  },
+  {
+    "id": "_:Nf6b1dfa94a0e46579b71c5742ad96365",
+    "type": [
+      "Class"
+    ],
+    "intersectionOf": [
+      {
+        "list": [
+          {
+            "id": "person"
+          },
+          {
+            "id": "young"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "red_top",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "red top"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "tabloid"
+      }
+    ]
+  },
+  {
+    "id": "truck",
+    "type": [
+      "Class"
+    ],
+    "comment": [
+      {
+        "value": ""
+      }
+    ],
+    "label": [
+      {
+        "value": "truck"
+      }
+    ],
+    "subClassOf": [
+      {
+        "id": "vehicle"
+      }
+    ]
+  }
+]
